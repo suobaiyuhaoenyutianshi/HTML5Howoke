@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>歌曲PK评分</title>
+<style>
+body {
+max-width: 560px;
+margin: 0 auto;
+line-height: 1.8;
+}
+.song {
+border: 1px solid #ccc;
+padding: 15px 20px;
+margin-top: 20px;
+}
+.song h2 {
+margin: 0 0 8px 0;
+}
+.lyrics {
+color: #555;
+}
+summary {
+cursor: pointer;
+color: #0066cc;
+font-weight: bold;
+}
+.rating {
+list-style: none;
+padding: 10px 0 0 0;
+margin: 0;
+}
+.rating li {
+margin-bottom: 10px;
+}
+.bar {
+width: 100%;
+height: 18px;
+background-color: #eee;
+border-radius: 3px;
+overflow: hidden;
+}
+.fill {
+height: 100%;
+line-height: 18px;
+color: #fff;
+text-align: right;
+padding-right: 5px;
+font-size: 13px;
+}
+</style>
+</head>
+<body>
+<div class="song">
+<h2>朋友</h2>
+<p class="lyrics">这些年一个人 风也过雨也走 有过泪有过错 还记得坚持什么 真爱过才会懂 会寂寞会回首 终有你终有梦在心中 朋友一生一起走 那些日子不再有 一句话一辈子 一生情一杯酒</p>
+<details>
+<summary>查看评分结果</summary>
+<ul class="rating">
+<li>
+<p>《那一天》</p>
+<div class="bar"><div class="fill" style="width:60%;background-color:#f0b400;">6分</div></div>
+</li>
+<li>
+<p>《向日葵》</p>
+<div class="bar"><div class="fill" style="width:80%;background-color:#3cb043;">8分</div></div>
+</li>
+<li>
+<p>《紫罗兰》</p>
+<div class="bar"><div class="fill" style="width:40%;background-color:#d43d3d;">4分</div></div>
+</li>
+</ul>
+</details>
+</div>
+</body>
+</html>
